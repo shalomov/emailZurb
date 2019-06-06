@@ -1,0 +1,428 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #fff; min-height: 100%;">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <style>
+@media only screen and (max-width:600px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container {
+    width: 95% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column,table.body .column .column,table.body .column .columns,table.body .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.body img,table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand,table.menu {
+    width: 100% !important;
+  }
+}
+</style>
+</head>
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+
+    <table class="wrapper body header-bg " align="center" style="Margin: 0; background: #fff; background-color: #bf0000; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <center data-parsed style="min-width: 600px; width: 100%;">
+        <table align="center" class="container header-bg float-center" style="Margin: 0 auto; background: #fff; background-color: #bf0000; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 600px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                  <center data-parsed style="min-width: 600px; width: 100%;">
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                    <img src="https://triolcorp.ru/storage/app/media/mail/at27/triolAt27.png" alt="triol store" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                    <h1 class="main-title border-top float-center" align="center" style="Margin: 0; Margin-bottom: 0; color: #fff; font-family: Arial,sans-serif; font-size: 32px; font-weight: 600; line-height: 35px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; text-transform: none; word-wrap: normal;">Средневольтные преобразователи частоты уже на сайте</h1>
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                    <img src="https://triolcorp.ru/storage/app/media/mail/at27/IMG.png" alt="triol store" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                    <p class="block-text white-text head-desc float-center" align="center" style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,serif; font-size: 18px; font-weight: 300; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">Триол каждый день работет над тем, чтобы нашим Партнерам было комфортно! Для того чтобы Вы повысили продажи, наша Корпорация подготовила презентацию про серию средневольтных ПЧ Триол АТ27!</p>
+                    <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                </center>
+                </th>
+<th class="expander" style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+              </tr></tbody></table>
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 600px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                  <center data-parsed style="min-width: 600px; width: 100%;">
+                      <!--[if mso]>
+                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://clck.ru/GLpwC" style="height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#fed500">
+                      <w:anchorlock/>
+                      <center style="color:#000000;font-family: Arial, sans-serif;font-size:14px;font-weight:600; letter-spacing: 1px;">Скачать презентацию</center>
+                      </v:rect>
+                      <![endif]-->
+                      <a href="https://clck.ru/GLpwC" target="_blank" class="btn-link float-center" align="center" style="Margin: 0; background-color: #fed500; color: #000; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;">Скачать презентацию</a>
+                    </center>
+                </th>
+<th class="expander" style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+              </tr></tbody></table>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+        </td></tr></tbody></table>
+      </center>
+    </td></tr></table>
+
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 25px; font-weight: 400; hyphens: auto; line-height: 25px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <center data-parsed style="min-width: 600px; width: 100%;">
+        <table align="center" class="container float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row bgSpacer" style="background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <th class="whiteBg small-12 large-6 columns first last" style="Margin: 0 auto; background-color: #fff; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                <center data-parsed style="min-width: 300px; width: 100%;">
+                  <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <h2 class="page-title float-center" align="center" style="Margin: 0; Margin-bottom: 0; color: #151d48; font-family: Arial,sans-serif; font-size: 24px; font-weight: 600; line-height: 30px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; word-wrap: normal;">Характеристики и линии продукта <span style="color: #bf0000; font-weight: 900;">AT27</span> </h2>
+                  <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                  <a href="https://clck.ru/GM2qP" target="_blank" align="center" class="float-center" style="Margin: 0; color: #151d48; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                    <img src="https://triolcorp.ru/storage/app/media/mail/at27/Group1.png" alt="triol store" style="-ms-interpolation-mode: bicubic; border: 0; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;">
+                  </a>
+                </center>
+              </th></tr></table></th>
+            </tr></tbody></table>
+          </td></tr></tbody></table>
+      </center>
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; height: auto; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+          <th class="small-12 large-6 columns first" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <center data-parsed style="min-width: 300px; width: 100%;">
+              <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <img src="https://triolcorp.ru/storage/app/media/mail/at27/Rectangle.png" alt="img" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+              <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </center>
+          </th></tr></table></th>
+
+          <th class="small-12 large-6 columns last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <h4 class="title-post small-text-center" style="Margin: 0; Margin-bottom: 0; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 600; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: left; word-wrap: normal;">Быть Партнером Триол — <br> это Ваш высокий доход и наша поддержка!</h4>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <p class="block-desc small-text-center" style="Margin: 0; Margin-bottom: 10px; color: #151d48; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; line-height: 20px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                Корпорация Триол предлагает своим клиентам, партнерам, сотрудникам 
+                и акционерам то, что никто другой предложить не сможет!
+            </p>
+            <div class="small-text-center">
+              <!--[if mso]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://clck.ru/GLpwS" style="border-bottom: 1px solid #00418d; height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#00a3fe">
+              <w:anchorlock/>
+              <center style="color:#ffffff;font-family: Arial, sans-serif;font-size:14px;font-weight:normal; letter-spacing: 1px;">На портал Партнеров!</center>
+              </v:rect>
+              <![endif]-->
+              <a href="https://clck.ru/GLpwS" target="_blank" class="btn-link post-btn custom-w_btn" style="Margin: 0; background-color: #00a3fe; border-bottom: 1px solid #00418d; color: #fff; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;">Перейти на Портал Партнеров!</a>
+            </div>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          </th></tr></table></th>
+        </tr></tbody></table>
+      </td></tr></tbody></table>
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+    </td></tr></table>
+
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; height: auto; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+          <th class="small-12 large-1 columns first" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 50px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+          </th></tr></table></th>
+          <th class="small-12 large-10 columns" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 500px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <center data-parsed style="min-width: 500px; width: 100%;">
+              <img src="https://triolcorp.ru/storage/app/media/mail/at27/Group.png" alt="triol store" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+            </center>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <h2 class="title-post text-center" style="Margin: 0; Margin-bottom: 0; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 600; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; word-wrap: normal;">Статья про АТ27 - Анонс на будущее!</h2>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <center data-parsed style="min-width: 500px; width: 100%;">
+              <!--[if mso]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://clck.ru/GLpwe" style="border-bottom: 1px solid #00418d;height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#00a3fe">
+              <w:anchorlock/>
+              <center style="color:#ffffff;font-family: Arial, sans-serif;font-size:14px;font-weight:normal; letter-spacing: 1px;">Читать статью</center>
+              </v:rect>
+              <![endif]-->
+              <a href="https://clck.ru/GLpwe" target="_blank" class="btn-link post-btn float-center" align="center" style="Margin: 0; background-color: #00a3fe; border-bottom: 1px solid #00418d; color: #fff; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;">Читать статью</a>
+            </center>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          </th></tr></table></th>
+          <th class="small-12 large-1 columns last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 50px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+          </th></tr></table></th>
+        </tr></tbody></table>
+      </td></tr></tbody></table>
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <table align="center" class="container header-bg" style="Margin: 0 auto; background: #fff; background-color: #bf0000; border-collapse: collapse; border-spacing: 0; height: auto; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 25px; font-weight: 400; hyphens: auto; line-height: 25px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+          <th class="small-12 large-1 columns first" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 50px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+          </th></tr></table></th>
+          <th class="small-12 large-10 columns" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 500px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <h2 class="title-post text-center white-txt" style="Margin: 0; Margin-bottom: 0; color: #fff; font-family: Arial,sans-serif; font-size: 20px; font-weight: 600; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; word-wrap: normal;">Полезная информация о средневольтных частотных преобразователях AT27 </h2>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+          </th></tr></table></th>
+          <th class="small-12 large-1 columns last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 50px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+          </th></tr></table></th>
+        </tr></tbody></table>
+        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+          <th class="small-12 large-6 columns first" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <center data-parsed style="min-width: 300px; width: 100%;">
+              <!--[if mso]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://clck.ru/GLpws" style=" height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#fed500">
+              <w:anchorlock/>
+              <center style="color:#ffffff;font-family: Arial, sans-serif;font-size:14px;font-weight:600; letter-spacing: 1px;">AT27 в онлайн-магазине</center>
+              </v:rect>
+              <![endif]-->
+              <a href="https://clck.ru/GLpws" target="_blank" class="btn-link float-center" align="center" style="Margin: 0; background-color: #fed500; color: #000; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;"> <span style="font-weight: 900;">AT27</span> в онлайн-магазине</a>
+            </center>
+          </th></tr></table></th>
+
+          <th class="small-12 large-6 columns last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+            <center data-parsed style="min-width: 300px; width: 100%;">
+              <!--[if mso]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://clck.ru/GLpx4" style="border: 1px solid #ffffff;height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#bf0000">
+              <w:anchorlock/>
+              <center style="color#ffffff;font-family: Arial, sans-serif;font-size:14px;font-weight:normal; letter-spacing: 1px;">Больше информации</center>
+              </v:rect>
+              <![endif]-->
+              <a href="https://clck.ru/GLpx4" target="_blank" class="btn-link btn-block_dark float-center" align="center" style="Margin: 0; background-color: #bf0000; border: 1px solid #fff; color: #fff; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;">Больше информации</a>
+            </center>
+          </th></tr></table></th>
+        </tr></tbody></table>
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+      </td></tr></tbody></table>
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+        <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="15px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+    </td></tr></table>
+    
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <center data-parsed style="min-width: 600px; width: 100%;">
+        <table align="center" class="container bgSpacer float-center" style="Margin: 0 auto; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 600px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <h4 class="title-footer" style="Margin: 0; Margin-bottom: 0; color: #000; font-family: Arial,sans-serif; font-size: 22px; font-weight: 400; line-height: 30px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; word-wrap: normal;">Подписывайтесь на рассылку, следите за новинками Триол, и получайте сюрпризы и подарки от нас!</h4>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th>
+<th class="expander" style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 600px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <center data-parsed style="min-width: 600px; width: 100%;">
+                <!--[if mso]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://triolcorp.ru/portal/teasier#modal-subscribe" style="1px solid #00418d;text-transform: uppercase;height:50px;v-text-anchor:middle;width:230px;" stroke="f" fillcolor="#00a3fe">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:  Arial,sans-serif;font-size:14px;font-weight:normal; letter-spacing: 1px;">Подписаться на новости</center>
+                </v:rect>
+                <![endif]-->
+                <a href="https://triolcorp.ru/portal/teasier#modal-subscribe" target="_blank" class="btn-link post-btn float-center" align="center" style="Margin: 0; background-color: #00a3fe; border-bottom: 1px solid #00418d; color: #fff; display: inline-block; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 50px; margin: 0; margin-bottom: 5px; max-width: 230px; padding: 0; text-align: center; text-decoration: none; width: 100%;">Подписаться на новости</a>
+              </center>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th>
+<th class="expander" style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 600px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                <p class="block-text" style="Margin: 0; Margin-bottom: 10px; color: #000; font-family: Arial,sans-serif; font-size: 15px; font-weight: 300; line-height: 20px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;">До новых встреч! <br> Ваш надёжный Партнёр, <br> Корпорация Триол </p>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 30px; font-weight: 400; hyphens: auto; line-height: 30px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th>
+<th class="expander" style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+      </center>
+    </td></tr></table>
+
+    <table class="wrapper body bgSpacer" align="center" style="Margin: 0; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+      <center data-parsed style="min-width: 600px; width: 100%;">
+        <table align="center" class="container bgSpacer float-center" style="Margin: 0 auto; background: #fff; background-color: #e5e5e5; border-collapse: collapse; border-spacing: 0; float: none; height: auto; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; height: auto; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+            <th class="small-12 large-6 columns first last" style="Margin: 0 auto; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 300px;"><table style="border-collapse: collapse; border-spacing: 0; height: auto; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #000; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <p class="copyright" style="Margin: 0; Margin-bottom: 10px; color: #000; font-family: Arial,sans-serif; font-size: 10px; font-weight: 400; line-height: 24px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">Copyright © Triol Corporation Ltd. 1993-2019. All Rights Reserved</p>
+            </th></tr></table></th>
+          </tr></tbody></table>
+        </td></tr></tbody></table>
+      </center>
+    </td></tr></table>
+
+</body>
+</html>

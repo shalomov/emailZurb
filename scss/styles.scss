@@ -1,0 +1,284 @@
+@import "foundation";
+
+.main-title {
+  text-transform: uppercase;
+  color: $primaryColorBtn;
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: $bodyTextColor;
+}
+
+.color-link {
+  color: #0071ff;
+}
+
+.btn-link {
+  color: $black;
+  font-size: 15px;
+  line-height: 50px;
+  display: inline-block;
+  width: 100%;
+  max-width: 230px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 400;
+  background-color: $primaryColorBtn;  font-size: 14px;
+  span {
+    font-weight: 900;
+  }
+  &.post-btn {
+    max-width: 230px;
+  color: $white;
+    background-color: $postBtnColor;
+    border-bottom: 1px solid #00418D;
+  }
+  &.btn-blog {
+    max-width: 230px;
+  }
+  &.custom-w_btn {
+    max-width: 230px;
+  }
+}
+.dwnld-link {
+  background-color: $bgOrange;
+}
+
+.btn-block_dark {
+  background-color: $headerBodyBG;
+  border: 1px solid $white;
+  color: $white;max-width: 230px;
+}
+.facebook-link {
+  background-color: #41609e;
+  border: 1px solid #41609e;
+}
+
+.subtitle{
+  &.light {
+    color: $white;
+    margin-bottom: 0;
+  }
+}
+
+.green-bg {
+  background-color: $letterGreen;
+}
+.blue-bg {
+  background-color: $bgBlue;
+}
+.custom-p {
+  color: $white;
+  margin-bottom: 0;
+}
+.whiteBg {
+  background-color: $white;
+}
+
+
+.title-desc {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.footer-bg {
+  background-color: $footerBg;
+}
+.footer-title {
+  color: $white;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.footer-link {
+  max-width: 260px;
+  width: 100%;
+  line-height: 45px;
+  background-color: $primaryColorBtn;
+  text-align: center;
+  display: inline-block;
+  color: $white;
+  font-size: 16px;
+}
+
+.footer-desc {
+  line-height: 24px;
+  text-align: center;
+  color: #8b8b8b;
+}
+
+table {
+  height: auto;
+}
+
+.page-title {
+  font-size: 24px;
+  line-height: 30px;
+  color: $bodyTitleColor;
+  text-align: center;
+
+  font-weight: 600;
+  span {
+    font-weight: 900;
+    color: $colorRed;
+  }
+}
+
+.main-title {
+  font-size: 32px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.border-bot {
+  border-bottom: 1px solid #496eb4;
+}
+
+.block-title {
+  font-size: 26px;
+  line-height: 30px;
+  color: $black;
+  text-align: center;
+  &.white-text {
+    color: $white;
+  }
+}
+
+.block-list {
+  li {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.block-subtitle {
+  color: $primaryColorBtn;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.block-desc {
+  font-size: 15px;
+  line-height: 20px;
+  color: $primary-color;
+}
+
+.back-grey {
+  background-color: $bgGray;
+}
+
+.back-green {
+  background-color: $bgGreen;
+}
+
+.block-text {
+  font-size: 15px;
+  line-height: 20px;
+  color: $black;
+  text-align: center;
+  font-weight: 300;
+  &.white-text {
+    color: $white;
+  }
+  &.gray-text {
+    color: $grayText;
+  }
+}
+
+
+.about-title {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+.about-link {
+  text-transform: uppercase;
+  color: $white;
+  font-size: 12px;
+  width: 250px;
+}
+.about-link_red {
+  background-color: #ab0018;
+}
+.about-link_green {
+  background-color: #01aeaf;
+}
+
+.subscribe-link {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.title-post {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  color: $black;  &.white-txt {
+    color: $white;
+  }
+}
+
+
+.post-desc {
+  font-size: 16px;
+  line-height: 22px;
+  color: $bodyTextColor;
+  font-family: Arial , sans-serif;
+  text-align: center;}
+.post-title {
+  font-size: 18px;
+  color: $black;
+  font-weight: 600;
+  line-height: 25px;
+}
+.title-footer {
+  color: $black;
+  font-size: 22px;
+  line-height: 30px;  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 0;
+  color: $black;
+  font-size: 10px;
+  font-family: Arial , sans-serif;
+}
+
+.copyright-bg {
+  background-color: $primary-color;
+}
+
+.head-desc {
+  font-family: Arial, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.footer-btn {
+  background-color: $primaryColorBtn;
+}
+
+.author-name {
+  color: $authorName;
+  font-size: 20px;
+}
+
+.bgSpacer {
+  background-color: $bgSpacer;
+}
